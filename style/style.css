@@ -12,6 +12,7 @@
  /* Share Style */
  .button-primary {
    background: #FF5400;
+   color: #FFF;
  }
 
  /* Header Section */
@@ -111,27 +112,66 @@
    border-radius: 8px;
    border: none;
    color: #FFF;
-   font-size: 1rem ;
+   font-size: 1rem;
    font-weight: 700;
  }
 
  /* Tours-Program css */
- .tours-program{
-  max-width: 1200px;
-  margin: 100px auto;
-  display: flex;
-  gap: 5%;
+ .tours-program {
+   max-width: 1200px;
+   margin: 100px auto;
+   display: flex;
+   gap: 5%;
  }
- .program-column{
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  max-width: 47.5%;
+
+ .program-column {
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   width: 47.5%;
  }
- .program-gallary{
-width: 47.5%;
-height: 550px;
-background: url('../Images/Rectangle\ 9.png');
-background-repeat: no-repeat;
-border: #eb1919;
+
+ .program-column-title {
+   color: #131318;
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin: 0;
+ }
+
+ .program-gallary {
+  width: 47.5%;
+ }
+
+ .tours-program .gallary-img {
+   width: 540px;
+   height: 550px;
+ }
+
+ .program-details {
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 26px;
+   margin: 24px 0px;
+ }
+
+ .program-detais-list {
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 26px;
+   margin-bottom: 16px;
+   margin-left: 20px;
+ }
+
+ .list-item-parent .last-item {
+   margin-bottom: 0px;
+ }
+
+ .program-button {
+   width: 160px;
+   border: none;
+   font-size: 20px;
+   border-radius: 8px;
+   padding: 14px 30px;
  }

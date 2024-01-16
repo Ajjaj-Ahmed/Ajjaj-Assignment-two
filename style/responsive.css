@@ -1,5 +1,6 @@
 @media screen and (max-width:600px) {
-  header {
+  header
+   {
     width: 100%;
     flex-direction: column;
   }
@@ -40,4 +41,22 @@
     width: 255px;
     margin: 0;
   }
+  /* Program-column */
+  .tours-program{
+    flex-direction: column;
+  }
+  .tours-program .program-gallary{
+    width: 100%;
+  }
+  .program-column{
+    width: 100%;
+    margin: 20px;
+  }
+  .program-gallary{
+    background-color: red;
+    width: 100%;
+    margin: 20px;
+  }
+ 
 }
+
