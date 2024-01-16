@@ -1,6 +1,5 @@
 @media screen and (max-width:600px) {
-  header
-   {
+  header {
     width: 100%;
     flex-direction: column;
   }
@@ -28,7 +27,7 @@
     margin: 0 16px;
   }
 
- .banner-inquery {
+  .banner-inquery {
     width: 287px;
     display: flex;
     flex-direction: column;
@@ -37,26 +36,41 @@
     padding: 16px;
     margin: 32px 24px;
   }
+
   .banner-input {
     width: 255px;
     margin: 0;
   }
+
   /* Program-column */
-  .tours-program{
+  .tours-program {
     flex-direction: column;
   }
+  .program-column {
+    width: 90%;
+    margin: 20px 20px 0px 20px;
+  }
+  .program-column-title{
+    font-size: 20px;
+  }
+  .program-details .program-details-list{
+    font-size: 14px;
+  }
+  .tours-program .program-gallary {
+    width: 90%;
+    margin: 20px;
+  }
+  /* .tours-program {
+    flex-direction: column;
+  }
+
+  .program-column {
+    width: 100%;
+    margin: 20px;
+  }
+
   .tours-program .program-gallary{
     width: 100%;
-  }
-  .program-column{
-    width: 100%;
-    margin: 20px;
-  }
-  .program-gallary{
-    background-color: red;
-    width: 100%;
-    margin: 20px;
-  }
- 
+    margin: 20px; 
+  } */
 }
-

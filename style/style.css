@@ -138,15 +138,6 @@
    margin: 0;
  }
 
- .program-gallary {
-  width: 47.5%;
- }
-
- .tours-program .gallary-img {
-   width: 540px;
-   height: 550px;
- }
-
  .program-details {
    color: rgba(19, 19, 24, 0.70);
    font-size: 1rem;
@@ -174,4 +165,13 @@
    font-size: 20px;
    border-radius: 8px;
    padding: 14px 30px;
+ }
+
+ .program-gallary {
+   border-radius: 16px;
+   width: 47.5%;
+ }
+
+ .tours-program .gallary-img {
+   width: 100%;
  }
