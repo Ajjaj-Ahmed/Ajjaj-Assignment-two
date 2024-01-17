@@ -66,86 +66,124 @@
   }
 
   /* Destination section */
-.destination{
-  display: none;
-}
-/* service area */
+  .destination {
+    display: none;
+  }
 
-.services{
-  width: 100%;
-  margin: 32px;
-}
-.services-group-one{
-flex-direction: column;
-align-items: center;
-gap:16px;
-}
-.services .services-title {
-  font-size: 20px;
-  margin: 0;
-}
-.services-details {
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-}
-.hotel-service,
-.outside-service,
-.best-price {
-  width: 80%;
+  /* service area */
 
-}
-.hotel-title{
-  margin: 16px 0px;
-}
-.best-price{
-  margin-top: 16px;
-}
-/* Place section */
-.place-section{
-  flex-direction: column;
-}
-.place-section .place-column {
-  width: 90%;
-  margin: 20px 20px 0px 20px;
-}
-.place-column-title{
-  width: 240px;
-  font-size: 20px;
-  margin-top: 24px;
-  margin-bottom: 16px;
-}
-.place-details{
-  width: 335px;
-}
-.place-section .program-detais-list{
-  font-size: 14px;
-}
-.place-gallary{
-  width: 335px;
-}
-.place-gallary-title{
-  margin: 70px 28px;
-}
-/* Newleter section */
-.newsleter-section{
-  flex-direction: column;
-}
-.newsleter-section .newsleter-column{
-  width: 90%;
-  margin: 20px 20px 0px 20px;
-}
-.newsleter-column-title {
-  width: 240px;
-  font-size: 20px;
-  margin-top: 24px;
-  margin-bottom: 16px;
-}
-.newsleter-details{
-  width: 335px;
-}
-.newsleter-gallary{
-  width: 335px;
-}
+  .services {
+    width: 100%;
+    margin: 32px;
+  }
+
+  .services-group-one {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .services .services-title {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .services-details {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .hotel-service,
+  .outside-service,
+  .best-price {
+    width: 80%;
+
+  }
+
+  .hotel-title {
+    margin: 16px 0px;
+  }
+
+  .best-price {
+    margin-top: 16px;
+  }
+
+  /* Place section */
+  .place-section {
+    flex-direction: column;
+  }
+
+  .place-section .place-column {
+    width: 90%;
+    margin: 20px 20px 0px 20px;
+  }
+
+  .place-column-title {
+    width: 240px;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .place-details {
+    width: 335px;
+  }
+
+  .place-section .program-detais-list {
+    font-size: 14px;
+  }
+
+  .place-gallary {
+    width: 335px;
+  }
+
+  .place-gallary-title {
+    margin: 70px 28px;
+  }
+
+  /* Newleter section */
+  .newsleter-section {
+    flex-direction: column;
+  }
+
+  .newsleter-section .newsleter-column {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .newsleter-column-title {
+    /* width: 240px; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .newsleter-details {
+    width: 335px;
+  }
+
+  .newsleter-gallary {
+    width: 335px;
+    margin: 0;
+  }
+
+  .newsleter-input {
+    width: 288px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+  }
+
+  /* footer section */
+  .footer-content {
+    gap: 10px;
+    padding-top: 50px;
+    margin: 0;
+  }
+  .footer-details {
+    margin: 0;
+  }
 
 }
