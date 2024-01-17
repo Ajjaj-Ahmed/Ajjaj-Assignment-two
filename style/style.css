@@ -352,5 +352,58 @@
    font-weight: 700;
    text-align: center;
    margin: 170px 160px;
-   
+
+ }
+
+ /* NewsLeter Section */
+
+ .newsleter-section {
+   width: 1200px;
+   margin: 100px auto;
+   display: flex;
+   gap: 48px;
+ }
+
+ .newsleter-section .newsleter-column {
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   width: 46%;
+   padding: 40px;
+ }
+
+ .newsleter-column-title {
+   color: #131318;
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin: 0;
+ }
+
+ .newsleter-details {
+   width: 350px;
+   color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 24px;
+ }
+
+ .newsleter-gallary {
+   background: url('../Images/Rectangle\ 8\ \(1\).png');
+   background-repeat: no-repeat;
+   width: 680px;
+   border-radius: 16px;
+ }
+
+ .newsleter-button {
+   width: 160px;
+   border: none;
+   font-size: 20px;
+   border-radius: 8px;
+   padding: 14px 30px;
+ }
+
+ .newsleter-input {
+   padding: 10px;
+   margin-bottom: 10px;
+   width: 300px;
  }

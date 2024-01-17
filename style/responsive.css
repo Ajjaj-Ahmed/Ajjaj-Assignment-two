@@ -127,4 +127,25 @@ gap:16px;
 .place-gallary-title{
   margin: 70px 28px;
 }
+/* Newleter section */
+.newsleter-section{
+  flex-direction: column;
+}
+.newsleter-section .newsleter-column{
+  width: 90%;
+  margin: 20px 20px 0px 20px;
+}
+.newsleter-column-title {
+  width: 240px;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.newsleter-details{
+  width: 335px;
+}
+.newsleter-gallary{
+  width: 335px;
+}
+
 }
