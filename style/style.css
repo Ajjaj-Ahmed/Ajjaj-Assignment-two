@@ -175,3 +175,182 @@
  .tours-program .gallary-img {
    width: 100%;
  }
+
+ /* Destination Section */
+ .destination {
+   width: 1200px;
+   margin: 0 auto;
+ }
+
+ .destination-title {
+   color: #131318;
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin-bottom: 0;
+ }
+
+ .destination .destination-description {
+   width: 600px;
+   text-align: center;
+   margin: 24px auto 50px;
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 26px;
+ }
+
+ .destination-group-image {
+   flex-direction: column;
+ }
+
+ .group-one {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 24px;
+ }
+
+ .group-two {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 24px;
+ }
+
+ .group-three {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ /* Services Area */
+ .services {
+   width: 1200px;
+   margin: 100px auto;
+ }
+
+ .services .services-title {
+   color: #131318;
+   font-size: 2.5rem;
+   text-align: center;
+   font-weight: 800;
+ }
+
+ .services-details {
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 1rem;
+   font-weight: 400;
+   margin: 24px 275px;
+   text-align: center;
+ }
+
+ .services-group-one {
+   display: flex;
+   justify-content: space-between;
+   gap: 24px;
+ }
+
+ .hotel-service {
+   width: 573px;
+   border-radius: 16px;
+   border: 1px solid rgba(251, 181, 99, 0.20);
+   background: rgba(251, 181, 99, 0.05);
+   padding: 32px;
+ }
+
+ .outside-service {
+   width: 573px;
+   padding: 32px;
+   border-radius: 16px;
+   border: 1px solid rgba(41, 206, 246, 0.20);
+   background: rgba(41, 206, 246, 0.05);
+ }
+
+ .hotel-title {
+   margin: 32px 0px 16px;
+   color: #131318;
+   font-size: 1.5rem;
+   font-weight: 800;
+ }
+
+ .hotel-description {
+   color: #5A5A5D;
+   font-size: 1rem;
+   font-weight: 400;
+   margin: 0;
+ }
+
+ .best-price {
+   width: 550px;
+   padding: 32px;
+   margin: 24px auto;
+   border-radius: 16px;
+   border: 1px solid rgba(233, 68, 68, 0.20);
+   background: rgba(233, 68, 68, 0.05);
+ }
+
+ /* Perfect Place */
+
+ /* Tours-Program css */
+ .place-section {
+   width: 1200px;
+   margin: 100px auto;
+   display: flex;
+   gap: 48px;
+ }
+
+ .place-section .place-column {
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+ }
+
+ .place-column-title {
+   color: #131318;
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin: 0;
+ }
+
+ .place-details {
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 26px;
+   margin: 24px 0px;
+ }
+
+ .program-detais-list {
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 1rem;
+   font-weight: bold;
+   margin-bottom: 16px;
+   margin-left: 20px;
+ }
+
+ .list-item-parent .last-item {
+   margin-bottom: 0px;
+ }
+
+ .place-button {
+   width: 160px;
+   border: none;
+   font-size: 20px;
+   border-radius: 8px;
+   padding: 14px 30px;
+ }
+
+ .place-gallary {
+   background: url('../Images/Group\ 40089.png');
+   background-repeat: no-repeat;
+   width: 100%;
+   border-radius: 16px;
+ }
+
+ .place-gallary-title {
+   width: 276px;
+   color: #FFF;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: center;
+   margin: 170px 160px;
+   
+ }
