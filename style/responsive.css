@@ -101,5 +101,30 @@ gap:16px;
 .best-price{
   margin-top: 16px;
 }
-
+/* Place section */
+.place-section{
+  flex-direction: column;
+}
+.place-section .place-column {
+  width: 90%;
+  margin: 20px 20px 0px 20px;
+}
+.place-column-title{
+  width: 240px;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.place-details{
+  width: 335px;
+}
+.place-section .program-detais-list{
+  font-size: 14px;
+}
+.place-gallary{
+  width: 335px;
+}
+.place-gallary-title{
+  margin: 70px 28px;
+}
 }
